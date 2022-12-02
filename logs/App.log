@@ -1,0 +1,270 @@
+2022-12-02 10:07:42.851  INFO 25832 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 25832 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:07:42.859  INFO 25832 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:07:43.405  INFO 25832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:07:43.462  INFO 25832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:07:43.982  INFO 25832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:07:44.024  INFO 25832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:07:44.155  INFO 25832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:07:44.462  INFO 25832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:07:44.632  INFO 25832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:07:44.660  INFO 25832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:07:45.133  INFO 25832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:07:45.140  INFO 25832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:07:45.836  WARN 25832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:07:46.339  INFO 25832 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.787 seconds (JVM running for 6.98)
+2022-12-02 10:07:46.531 ERROR 25832 --- [main] c.g.s.I.ScheduleServiceImplementation    : DheeMovie Does not found
+2022-12-02 10:07:46.555 ERROR 25832 --- [main] c.g.s.I.ScheduleServiceImplementation    : Nexus8Theatre Does not found
+2022-12-02 10:07:46.570  INFO 25832 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:07:46.573  INFO 25832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:07:46.585  INFO 25832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:08:34.815  INFO 28504 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 28504 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:08:34.817  INFO 28504 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:08:35.331  INFO 28504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:08:35.384  INFO 28504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:08:35.845  INFO 28504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:08:35.884  INFO 28504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:08:36.007  INFO 28504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:08:36.390  INFO 28504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:08:36.537  INFO 28504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:08:36.561  INFO 28504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:08:37.058  INFO 28504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:08:37.065  INFO 28504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:08:37.748  WARN 28504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:08:38.261  INFO 28504 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.727 seconds (JVM running for 5.127)
+2022-12-02 10:08:38.427 ERROR 28504 --- [main] c.g.s.I.ScheduleServiceImplementation    : DheeMovie Does not found
+2022-12-02 10:08:38.451  INFO 28504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:08:38.456  INFO 28504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:08:38.467  INFO 28504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:09:19.560  INFO 23532 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 23532 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:09:19.562  INFO 23532 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:09:20.034  INFO 23532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:09:20.092  INFO 23532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:09:20.578  INFO 23532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:09:20.628  INFO 23532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:09:20.759  INFO 23532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:09:21.089  INFO 23532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:09:21.238  INFO 23532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:09:21.261  INFO 23532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:09:21.733  INFO 23532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:09:21.740  INFO 23532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:09:22.470  WARN 23532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:09:23.012  INFO 23532 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.725 seconds (JVM running for 5.095)
+2022-12-02 10:09:23.191 ERROR 23532 --- [main] c.g.s.I.ScheduleServiceImplementation    : DheeMovie Does not found
+2022-12-02 10:09:23.215  INFO 23532 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:09:23.219  INFO 23532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:09:23.229  INFO 23532 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:09:50.942  INFO 20828 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 20828 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:09:50.944  INFO 20828 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:09:51.446  INFO 20828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:09:51.503  INFO 20828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:09:52.007  INFO 20828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:09:52.052  INFO 20828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:09:52.175  INFO 20828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:09:52.582  INFO 20828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:09:52.733  INFO 20828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:09:52.758  INFO 20828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:09:53.365  INFO 20828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:09:53.372  INFO 20828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:09:54.091  WARN 20828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:09:55.031  INFO 20828 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 4.369 seconds (JVM running for 5.486)
+2022-12-02 10:09:55.313  INFO 20828 --- [main] c.g.s.I.ScheduleServiceImplementation    : Saved Schedule Successfully
+2022-12-02 10:09:55.334  INFO 20828 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:09:55.338  INFO 20828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:09:55.350  INFO 20828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:15:04.437  INFO 27292 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 27292 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:15:04.439  INFO 27292 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:15:04.959  INFO 27292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:15:05.011  INFO 27292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:15:05.793  INFO 27292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:15:05.832  INFO 27292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:15:05.870  INFO 27292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:15:06.225  INFO 27292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:15:06.376  INFO 27292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:15:06.401  INFO 27292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:15:06.799  INFO 27292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:15:06.805  INFO 27292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:15:07.350  WARN 27292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:15:07.850  INFO 27292 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.7 seconds (JVM running for 4.824)
+2022-12-02 10:15:07.934  INFO 27292 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:15:07.937  INFO 27292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:15:07.948  INFO 27292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:17:57.173  INFO 28704 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 28704 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:17:57.175  INFO 28704 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:17:57.676  INFO 28704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:17:57.733  INFO 28704 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:17:58.521  INFO 28704 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:17:58.562  INFO 28704 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:17:58.598  INFO 28704 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:17:58.952  INFO 28704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:17:59.102  INFO 28704 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:17:59.140  INFO 28704 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:17:59.522  INFO 28704 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:17:59.532  INFO 28704 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:18:00.150  WARN 28704 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:18:00.684  INFO 28704 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.787 seconds (JVM running for 5.924)
+2022-12-02 10:18:00.787  INFO 28704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:18:00.790  INFO 28704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:18:00.805  INFO 28704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:19:57.234  INFO 11980 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 11980 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:19:57.235  INFO 11980 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:19:57.771  INFO 11980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:19:57.827  INFO 11980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:19:58.643  INFO 11980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:19:58.706  INFO 11980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:19:58.749  INFO 11980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:19:59.104  INFO 11980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:19:59.276  INFO 11980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:19:59.304  INFO 11980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:19:59.713  INFO 11980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:19:59.721  INFO 11980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:20:00.358  WARN 11980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:20:00.904  INFO 11980 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 3.969 seconds (JVM running for 6.112)
+2022-12-02 10:20:01.024  INFO 11980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:20:01.027  INFO 11980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:20:01.041  INFO 11980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:23:01.257  INFO 7292 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 7292 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:23:01.259  INFO 7292 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:23:01.778  INFO 7292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:23:01.828  INFO 7292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:23:02.638  INFO 7292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:23:02.688  INFO 7292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:23:02.738  INFO 7292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:23:03.162  INFO 7292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:23:03.320  INFO 7292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:23:03.349  INFO 7292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:23:03.802  INFO 7292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:23:03.810  INFO 7292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:23:04.392  WARN 7292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:23:04.962  INFO 7292 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 4.012 seconds (JVM running for 6.548)
+2022-12-02 10:23:05.046  INFO 7292 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:23:05.050  INFO 7292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:23:05.062  INFO 7292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 10:23:48.440  INFO 26516 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 26516 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 10:23:48.443  INFO 26516 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 10:23:49.037  INFO 26516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 10:23:49.097  INFO 26516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2022-12-02 10:23:49.978  INFO 26516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 10:23:50.028  INFO 26516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 10:23:50.077  INFO 26516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 10:23:50.457  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 10:23:50.630  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 10:23:50.672  INFO 26516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 10:23:51.196  INFO 26516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 10:23:51.207  INFO 26516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:23:51.857  WARN 26516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 10:23:52.374  INFO 26516 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 4.252 seconds (JVM running for 5.799)
+2022-12-02 10:23:52.460  INFO 26516 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 10:23:52.463  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 10:23:52.478  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 11:28:17.332  INFO 21736 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 21736 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 11:28:17.335  INFO 21736 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 11:28:18.011  INFO 21736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 11:28:18.075  INFO 21736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2022-12-02 11:28:19.106  INFO 21736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 11:28:19.162  INFO 21736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 11:28:19.215  INFO 21736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 11:28:19.645  INFO 21736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 11:28:19.867  INFO 21736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 11:28:19.913  INFO 21736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 11:28:20.461  INFO 21736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 11:28:20.471  INFO 21736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 11:28:21.304  WARN 21736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 11:28:21.972  INFO 21736 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 5.038 seconds (JVM running for 7.036)
+2022-12-02 11:28:22.091  WARN 21736 --- [main] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4985cbcb] for test method [void com.gxts.test.SampleApplicationTests.testAddSchedulePositive()] and test instance [com.gxts.test.SampleApplicationTests@80b70fd]
+
+org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at com.gxts.test.SampleApplicationTests.testAddSchedulePositive(SampleScheduleApplicationTests.java:55)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:83) ~[spring-boot-test-2.7.5.jar:2.7.5]
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70) ~[spring-boot-test-2.7.5.jar:2.7.5]
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64) ~[spring-boot-test-2.7.5.jar:2.7.5]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:445) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:257) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:273) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:273) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:272) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:256) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:141) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[org.junit.jupiter.engine_5.8.1.v20211018-1956.jar:5.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[org.junit.platform.engine_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60) ~[org.junit.platform.launcher_1.8.1.v20211018-1956.jar:1.8.1]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:na]
+
+2022-12-02 11:28:22.111  INFO 21736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 11:28:22.114  INFO 21736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 11:28:22.128  INFO 21736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-02 11:34:03.046  INFO 11120 --- [main] com.gxts.test.SampleApplicationTests     : Starting SampleApplicationTests using Java 11.0.15 on GBLNB-PG033XDR with PID 11120 (started by sushaik in C:\Users\sushaik\Downloads\MovieTheatre\MovieSchedule)
+2022-12-02 11:34:03.049  INFO 11120 --- [main] com.gxts.test.SampleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-02 11:34:03.704  INFO 11120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-02 11:34:03.774  INFO 11120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2022-12-02 11:34:04.961  INFO 11120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-02 11:34:05.013  INFO 11120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-02 11:34:05.067  INFO 11120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-02 11:34:05.587  INFO 11120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-02 11:34:05.809  INFO 11120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-02 11:34:05.841  INFO 11120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-02 11:34:06.357  INFO 11120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-02 11:34:06.367  INFO 11120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 11:34:07.119  WARN 11120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-02 11:34:07.795  INFO 11120 --- [main] com.gxts.test.SampleApplicationTests     : Started SampleApplicationTests in 5.127 seconds (JVM running for 7.026)
+2022-12-02 11:34:08.052 ERROR 11120 --- [main] c.g.s.I.ScheduleServiceImplementation    : TemperTheatre Does not found
+2022-12-02 11:34:08.074  INFO 11120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-02 11:34:08.079  INFO 11120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-02 11:34:08.097  INFO 11120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
